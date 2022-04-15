@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'helvetica';
+    background-color: #f0f2f5;
+}
+
+.content{
+    margin-left: 100px;
+    margin-top: 150px;
+    animation-name: content-ani;
+    animation-duration: 2s;
+}
+
+/* @keyframes content-ani {
+    from{
+        margin-left: -666px;
+    }    
+    to{
+        margin-left: 100px;
+    }
+} */
+
+#h1{
+    color: #1877f2;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+#para1, #para2{
+    display: flex;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    margin-top: -190px;
+    margin-left: 590px;
+    height: 300px;
+    width: 300px;
+    animation-name: box-ani;
+    animation-duration: 3s;
+}
+
+/* @keyframes box-ani {
+    from{
+        margin-left: 1200px;
+    }
+    to{
+        margin-left: 590px;
+    }
+} */
+
+.email{
+    padding: 10px 20px;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border-color: #000;
+    border-width: .5px;
+}
+
+.password{
+    padding: 10px 20px;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    border-width: .5px;
+}
+
+#btn1{
+    background-color: #1877f2;
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.forgot{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 13px;
+    text-align: center;
+}
+
+.forgot:hover{
+    color: #075bc9;
+}
+
+#btn1:hover{
+    background-color: #075bc9;
+}
+
+.hr{
+    margin-top: 20px;
+}
+
+#btn2{
+    background-color: #42b72a;
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    margin-left: 65px;
+    margin-top: 20px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#btn2:hover{
+    background-color: #32a11c;
+}
+
+@media (max-width: 900){
+    .box{
+        margin-left: -500px;
+    }
+}

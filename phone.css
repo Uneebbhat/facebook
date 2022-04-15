@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'helvetica';
+    background-color: #f0f2f5;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+#h1{
+    font-size: 40px;
+}
+
+#para1, #para2{
+    font-size: 17px;
+    line-height: normal;
+}
+
+.box{
+    margin-left: 110px;
+    margin-top: 35px;
+}
